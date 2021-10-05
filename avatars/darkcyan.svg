@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <rect x="0" y="0" width="100" height="100" fill="rgb(0, 139, 139)" fill-opacity="0.29"/>
+  <rect x="56" y="61" width="24" height="7" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.8"/>
+  <rect x="79" y="15" width="31" height="18" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.55"/>
+  <rect x="53" y="79" width="34" height="5" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.99"/>
+  <circle cx="48" cy="99" r="3" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.07000000000000001"/>
+  <circle cx="53" cy="93" r="17" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.99"/>
+  <circle cx="19" cy="65" r="6" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.9"/>
+  <rect x="24" y="55" width="32" height="0" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.39"/>
+  <rect x="99" y="40" width="11" height="24" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.18"/>
+  <circle cx="39" cy="69" r="12" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.03"/>
+  <circle cx="93" cy="30" r="10" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.58"/>
+  <circle cx="82" cy="1" r="8" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.1"/>
+  <rect x="88" y="15" width="9" height="30" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.9399999999999999"/>
+  <rect x="67" y="13" width="17" height="37" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.65"/>
+  <rect x="21" y="26" width="13" height="2" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.26"/>
+  <rect x="31" y="7" width="11" height="7" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.58"/>
+  <rect x="68" y="50" width="30" height="27" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.8100000000000001"/>
+  <rect x="60" y="51" width="23" height="27" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.91"/>
+  <rect x="89" y="35" width="23" height="5" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.31"/>
+  <rect x="85" y="7" width="19" height="25" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.77"/>
+  <circle cx="84" cy="42" r="9" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.45"/>
+  <rect x="71" y="0" width="38" height="10" stroke="rgb(0, 139, 139)" fill="rgb(0, 139, 139)" fill-opacity="0.96"/>
+</svg>

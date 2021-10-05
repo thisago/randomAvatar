@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <rect x="0" y="0" width="100" height="100" fill="rgb(221, 160, 221)" fill-opacity="0.14"/>
+  <circle cx="17" cy="82" r="9" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.86"/>
+  <rect x="49" y="99" width="30" height="36" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.18"/>
+  <circle cx="25" cy="65" r="1" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.24"/>
+  <rect x="51" y="75" width="5" height="39" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.07000000000000001"/>
+  <rect x="71" y="84" width="20" height="6" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.29"/>
+  <rect x="25" y="44" width="0" height="39" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.13"/>
+  <rect x="17" y="99" width="33" height="6" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.75"/>
+  <rect x="33" y="30" width="7" height="8" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.06"/>
+  <circle cx="93" cy="72" r="14" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.2"/>
+  <circle cx="95" cy="34" r="20" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.7"/>
+  <circle cx="9" cy="7" r="18" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.67"/>
+  <rect x="33" y="81" width="37" height="15" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.89"/>
+  <rect x="9" y="36" width="40" height="28" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.18"/>
+  <circle cx="15" cy="20" r="16" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.95"/>
+  <rect x="64" y="46" width="40" height="8" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.78"/>
+  <circle cx="88" cy="6" r="10" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.15"/>
+  <circle cx="98" cy="65" r="11" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.48"/>
+  <rect x="14" y="57" width="1" height="24" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="1.0"/>
+  <circle cx="69" cy="28" r="5" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.25"/>
+  <rect x="57" y="58" width="25" height="5" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.26"/>
+  <circle cx="66" cy="56" r="16" stroke="rgb(221, 160, 221)" fill="rgb(221, 160, 221)" fill-opacity="0.1"/>
+</svg>

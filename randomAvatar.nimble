@@ -1,7 +1,7 @@
 # Package
 
 version       = "0.1.0"
-author        = "Thiago Ferreira"
+author        = "Thiago Navarro"
 description   = "Generates random SVG avatars"
 license       = "MIT"
 srcDir        = "src"
@@ -12,7 +12,7 @@ srcDir        = "src"
 requires "nim >= 1.5.1"
 requires "nimsvg"
 
-bin = @["randomSvg"]
+bin = @["randomAvatar"]
 binDir = "build"
 
 task build_release, "Builds the release version":

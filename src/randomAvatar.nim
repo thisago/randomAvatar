@@ -1,11 +1,3 @@
-#[
-  Created at: 06/04/2021 13:13:56 Friday
-  Modified at: 10/05/2021 12:31:29 AM Tuesday
-
-        Copyright (C) 2021 Thiago Ferreira
-  See file "license" for details about copyright
-]#
-
 {.experimental: "codeReordering".}
 
 import std/[uri, os, strformat, random]
@@ -158,7 +150,12 @@ const avatarColors = {
   "white": "rgb(255, 255, 255)",
   "whitesmoke": "rgb(245, 245, 245)",
   "yellow": "rgb(255, 255, 0)",
-  "yellowgreen": "rgb(154, 205, 50)"
+  "yellowgreen": "rgb(154, 205, 50)",
+  "myColor": "#181722",
+  "custom1": "#181722",
+  "custom2": "#0E3E53",
+  "custom3": "#222A37",
+  "custom4": "#479C9C"
 }
 
 when isMainModule:
@@ -179,53 +176,30 @@ import nimsvg
 
 const
   imgSize = 100
-  life = (
-    path: "M92.71,7.27L92.71,7.27c-9.71-9.69-25.46-9.69-35.18,0L50,14.79l-7.54-7.52C32.75-2.42,17-2.42,7.29,7.27v0 c-9.71,9.69-9.71,25.41,0,35.1L50,85l42.71-42.63C102.43,32.68,102.43,16.96,92.71,7.27z",
-    width: 105,
-    height: 105,
-    color: "red"
-  )
 
-proc genLife_full: string =
-  var svg = buildSvg:
-    svg(width = life.width, height = life.height):
-      path(style = "transform: translate(2px, 2px)",
-          d = life.path,
-           stroke = life.color, `stroke-width` = "4", fill = life.color)
-  return svg.render
-
-proc genLife_empty: string =
-  var svg = buildSvg:
-    svg(width = life.width, height = life.height):
-      path(style = "transform: translate(2px, 2px)",
-          d = life.path,
-           stroke = life.color, `stroke-width` = "4", fill = "transparent")
-  return svg.render
-
-const maxElementSize = 40
+const maxElementSize = 50
 
 proc genAvatar(color: string): string =
   var svg = buildSvg:
     svg(width = imgSize, height = imgSize):
-      let
-        opacity = rand(70) / 100
+      rect(x = 0, y = 0, width = imgSize, height = imgSize, fill = "black")
       rect(x = 0, y = 0, width = imgSize, height = imgSize, fill = color,
-          `fill-opacity` = opacity)
-      for _ in 0..20:
+          `fill-opacity` = 0.2)
+      for _ in 0..100:
         let
-          x = rand imgSize
-          y = rand imgSize
-          opacity = rand(100) / 100
+          x = rand(imgSize * 1.5) - imgSize / 2
+          y = rand(imgSize * 1.5) - imgSize / 2
+          opacity = rand(50) / 100
 
         if sample([true, false]):
           let
             radius = rand(maxElementSize div 2)
           circle(cx = x, cy = y, r = radius, stroke = color, fill = color,
-              `fill-opacity` = opacity)
+              `fill-opacity` = opacity, `stroke-opacity` = rand(70) / 100)
         else:
           let
             width = rand maxElementSize
             height = rand maxElementSize
           rect(x = x, y = y, width = width, height = height, stroke = color,
-              fill = color, `fill-opacity` = opacity)
+              fill = color, `fill-opacity` = opacity, `stroke-opacity` = rand(70) / 100)
   return svg.render
